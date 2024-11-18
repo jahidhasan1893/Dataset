@@ -1,0 +1,1200 @@
+5 2
+AA
+AB
+BB
+BA
+ZA
+5 2
+AA
+AB
+CB
+BA
+AZ
+2 2
+AA
+AB
+CB
+BA
+AZ
+2 2
+AA
+BC
+CB
+AB
+AZ
+1 2
+AA
+AC
+BC
+BA
+ZA
+5 2
+AA
+AB
+BC
+BA
+AZ
+3 2
+AA
+AB
+CB
+AB
+AZ
+4 2
+BA
+AC
+EA
+AA
+Z@
+3 2
+AA
+BA
+CB
+AB
+AZ
+4 2
+AA
+AC
+CB
+BA
+AZ
+4 2
+BA
+BC
+EA
+AB
+Z@
+3 2
+BA
+AD
+AB
+BA
+C
+3 2
+AA
+BA
+BC
+AB
+AZ
+5 2
+AA
+BA
+CC
+BB
+AZ
+2 2
+AA
+AB
+CB
+AB
+AZ
+2 2
+AA
+AC
+CB
+AB
+AZ
+2 2
+AA
+BC
+CB
+AB
+ZA
+2 2
+AA
+BC
+BC
+AB
+ZA
+2 2
+AA
+AC
+BC
+AB
+ZA
+2 2
+AA
+AC
+BC
+BA
+ZA
+1 2
+AA
+AC
+BC
+AA
+ZA
+1 2
+AA
+AC
+CB
+AA
+ZA
+1 2
+AA
+AC
+CB
+AA
+Z@
+2 2
+AA
+AC
+CB
+AA
+Z@
+2 2
+AA
+AC
+CA
+AA
+Z@
+2 2
+AB
+AC
+CA
+AA
+Z@
+2 2
+AB
+AC
+CA
+BA
+Z@
+2 2
+AB
+AC
+CA
+AB
+Z@
+2 2
+AB
+AC
+CA
+AB
+@Z
+2 2
+AB
+AC
+CA
+AB
+@Y
+5 2
+AA
+AB
+BB
+BA
+ZB
+2 2
+AA
+AD
+CB
+AB
+AZ
+2 2
+AA
+BC
+BB
+AB
+AZ
+2 2
+BA
+BC
+CB
+AB
+ZA
+2 2
+AA
+BC
+BD
+AB
+ZA
+2 2
+AA
+AC
+BC
+AB
+A
+2 2
+AA
+AC
+BC
+BA
+AZ
+1 2
+AA
+AB
+BC
+BA
+ZA
+1 2
+AA
+AC
+BC
+AA
+AZ
+1 2
+BA
+AC
+CB
+AA
+Z@
+2 2
+AA
+AC
+BC
+AA
+Z@
+2 2
+AA
+AC
+DA
+AA
+Z@
+2 2
+AB
+AC
+CA
+AA
+@
+2 2
+AB
+CA
+CA
+BA
+Z@
+2 2
+AB
+AC
+AC
+AB
+Z@
+2 2
+AB
+AC
+BA
+AB
+@Z
+2 2
+AB
+CA
+CA
+AB
+@Y
+5 2
+AA
+AB
+CC
+BA
+AZ
+2 2
+BA
+BC
+BB
+AB
+ZA
+2 2
+AA
+AC
+AC
+AB
+A
+2 2
+AA
+AC
+CB
+BA
+AZ
+1 2
+AA
+AB
+BC
+BA
+AZ
+1 2
+AA
+AC
+BC
+AA
+@Z
+1 2
+BA
+AC
+CA
+AA
+Z@
+2 2
+AA
+AC
+BC
+AA
+Z?
+3 2
+AA
+AC
+DA
+AA
+Z@
+2 2
+BA
+AC
+CA
+AA
+@
+1 2
+AB
+CA
+CA
+BA
+Z@
+2 2
+AB
+CA
+AC
+AB
+Z@
+2 2
+AB
+AC
+BA
+BB
+@Z
+2 2
+AB
+CB
+CA
+AB
+@Y
+3 2
+AA
+AB
+CC
+BA
+AZ
+1 2
+BA
+BC
+BB
+AB
+ZA
+2 2
+AA
+AC
+AC
+AC
+A
+2 2
+AA
+AB
+CB
+CA
+AZ
+1 2
+AA
+AB
+BC
+BA
+A
+1 2
+AA
+AC
+BC
+AB
+@Z
+1 2
+BA
+AC
+CA
+AA
+@Z
+2 2
+AA
+AC
+BC
+AA
+?Z
+3 2
+AA
+AC
+EA
+AA
+Z@
+2 2
+BA
+AC
+AC
+AA
+@
+1 2
+BB
+CA
+CA
+BA
+Z@
+2 2
+AB
+BA
+AC
+AB
+Z@
+2 2
+AB
+AC
+BA
+BB
+?Z
+2 2
+AB
+CB
+CA
+AC
+@Y
+1 2
+BA
+CB
+BB
+AB
+ZA
+2 2
+AA
+AC
+AC
+AC
+B
+1 2
+AA
+AC
+CB
+BA
+AZ
+2 2
+AA
+AB
+BC
+BA
+A
+1 2
+AA
+AC
+CB
+AB
+@Z
+1 2
+BA
+AC
+CA
+AB
+@Z
+2 2
+AA
+AC
+BC
+A@
+?Z
+3 2
+BA
+AC
+EA
+AA
+Z@
+1 2
+BB
+AC
+CA
+BA
+Z@
+2 2
+AA
+AC
+BA
+BB
+?Z
+2 2
+BA
+CB
+CA
+AC
+@Y
+2 2
+BA
+CB
+BB
+AB
+ZA
+1 2
+AA
+AC
+AC
+AC
+B
+1 2
+AA
+AC
+CB
+BA
+ZA
+2 2
+AA
+AB
+CB
+BA
+A
+1 2
+AA
+AC
+CB
+AB
+Z@
+1 2
+BA
+AC
+CB
+AB
+@Z
+2 2
+BA
+AC
+BC
+A@
+?Z
+1 2
+BB
+AC
+CA
+AB
+Z@
+2 2
+AA
+BC
+BA
+BB
+?Z
+2 2
+BA
+BC
+CA
+AC
+@Y
+1 2
+AA
+AC
+AC
+AC
+C
+2 2
+AA
+AC
+CB
+BA
+A
+1 2
+AA
+AC
+DB
+AB
+Z@
+2 2
+BA
+AD
+BC
+A@
+?Z
+4 2
+BA
+AC
+EA
+AB
+Z@
+1 2
+CB
+AC
+CA
+AB
+Z@
+2 2
+AA
+BC
+BA
+BB
+Z?
+2 2
+BA
+BB
+CA
+AC
+@Y
+1 2
+AA
+AC
+AC
+AD
+C
+2 2
+AA
+CA
+CB
+BA
+A
+2 2
+BA
+AD
+BC
+A?
+?Z
+1 2
+CB
+CA
+CA
+AB
+Z@
+2 2
+AA
+BC
+BB
+BB
+Z?
+2 2
+BA
+BB
+CA
+CA
+@Y
+1 2
+AA
+CA
+AC
+AD
+C
+2 2
+AA
+CA
+BB
+BA
+A
+2 2
+BA
+AD
+BB
+A?
+?Z
+2 2
+BA
+BB
+CA
+DA
+@Y
+2 2
+AA
+CA
+BB
+AB
+A
+2 2
+BA
+DA
+BB
+A?
+?Z
+2 2
+AB
+BB
+CA
+DA
+@Y
+2 2
+AA
+CA
+BB
+AA
+A
+2 2
+BA
+AD
+BB
+A?
+?Y
+2 2
+BA
+BB
+CA
+D@
+@Y
+2 2
+AA
+DA
+BB
+BA
+A
+2 2
+AB
+AD
+BB
+A?
+?Y
+2 2
+BA
+BB
+AC
+D@
+@Y
+2 2
+AA
+DA
+BB
+AB
+A
+2 2
+AB
+AD
+BA
+A?
+?Y
+2 2
+AA
+DA
+AB
+AB
+A
+2 2
+AB
+AD
+AB
+A?
+?Y
+2 2
+AA
+DA
+AB
+BA
+A
+2 2
+AB
+AD
+CA
+A?
+?Y
+2 2
+AA
+DA
+AB
+BA
+B
+2 2
+AB
+AD
+CA
+A>
+?Y
+2 2
+AA
+DA
+AB
+CA
+B
+1 2
+AA
+DA
+AB
+CA
+B
+1 2
+AA
+AD
+AB
+CA
+B
+1 2
+AA
+AD
+AB
+AC
+B
+1 2
+AA
+AD
+AB
+AC
+C
+1 2
+AA
+AD
+AB
+CA
+C
+1 2
+AA
+AD
+AB
+BA
+C
+2 2
+AA
+AD
+AB
+BA
+C
+2 2
+BA
+AD
+AB
+BA
+C
+2 2
+BA
+AE
+AB
+BA
+C
+2 2
+BA
+AE
+AB
+BA
+C
+2 2
+AA
+AB
+CB
+AC
+AZ
+3 2
+AA
+AC
+CB
+AB
+AZ
+2 2
+AA
+BC
+DB
+AB
+AZ
+2 2
+AA
+BC
+CB
+BA
+ZA
+2 2
+AA
+BC
+BC
+AC
+ZA
+2 2
+AA
+AC
+CB
+AB
+ZA
+2 2
+AA
+AC
+CC
+BA
+ZA
+2 2
+AA
+CA
+BC
+BA
+ZA
+1 2
+AA
+AB
+BC
+AA
+ZA
+1 2
+AA
+AC
+CC
+AA
+ZA
+1 2
+AA
+AD
+CB
+AA
+Z@
+2 2
+AA
+AC
+CB
+@A
+Z@
+2 2
+AB
+CA
+CA
+AB
+Z@
+2 2
+AA
+AC
+CA
+AB
+Z@
+2 2
+AB
+AC
+AC
+AB
+@Z
+2 2
+AB
+AC
+AC
+AB
+@Y
+2 2
+AA
+BC
+BD
+AB
+YA
+3 2
+AA
+AC
+BC
+AB
+A
+2 2
+AA
+AC
+AC
+BA
+AZ
+1 1
+AA
+AC
+BC
+AA
+AZ
+1 2
+BA
+AC
+CB
+AA
+@Z
+2 2
+AB
+AC
+DA
+AA
+Z@
+2 2
+BA
+AC
+CB
+AA
+@
+2 1
+AB
+CA
+CA
+BA
+Z@
+2 2
+BA
+AC
+CA
+AB
+@Z
+2 2
+AB
+BC
+BA
+AB
+@Z
+2 2
+AB
+CA
+AC
+AB
+@Y
+5 2
+AA
+AB
+CC
+BB
+AZ
+2 2
+BA
+CB
+BB
+AB
+AZ
+1 2
+AA
+AB
+BC
+BA
+AY
+1 2
+AA
+AC
+BC
+BA
+@Z
+2 2
+AB
+AC
+CB
+AA
+@
+2 2
+AB
+CA
+AD
+AB
+Z@
+2 2
+AB
+CB
+CB
+AB
+@Y
+3 2
+AA
+AB
+CC
+BA
+AY
+1 2
+BA
+BC
+BB
+BB
+ZA
+2 2
+AA
+CA
+AC
+AC
+A
+2 2
+AA
+AB
+BC
+BA
+AZ
+1 2
+AA
+AB
+BB
+BA
+A
+1 2
+AA
+AC
+BC
+AB
+@
+1 2
+BA
+BC
+CA
+AA
+Z@
+2 2
+AA
+CA
+BC
+AA
+?Z
+3 2
+AB
+AC
+EA
+AA
+Z@
+2 2
+BA
+AC
+AC
+AA
+Z@
+1 2
+BB
+CA
+CA
+BA
+@Z
+2 2
+AB
+BA
+AC
+BA
+Z@
+2 2
+BB
+CB
+CA
+AC
+@Y
+1 2
+BA
+CB
+BB
+BA
+ZA
+2 2
+BA
+AC
+AC
+AC
+B
+1 2
+AA
+AC
+CB
+AA
+AZ
+2 2
+AA
+AB
+BC
+B@
+A
+1 2
+AA
+AC
+CB
+AA
+@Z
+2 2
+AA
+AC
+CA
+BB
+?Z
+2 2
+AB
+CB
+BB
+AB
+ZA
+1 2
+AA
+CA
+AC
+AC
+B
+3 2
+AA
+AB
+CB
+BA
+A
+1 1
+AA
+AC
+CB
+AB
+Z@
+1 2
+BA
+AC
+CC
+AB
+@Z

@@ -1,11 +1,12 @@
 from datasets import load_dataset
 import os
+import codecs
 
 ds = load_dataset("deepmind/code_contests")
 
 i=0
 
-for item in ds['train']:
+for item in ds['test']:
     if i >= 100:
         break
     if item['source']==2: # codeforces problem fetching
@@ -23,24 +24,43 @@ for item in ds['train']:
             
         # Create description file
         description_path = os.path.join(problem_path, "description")
-        with open(description_path, "w") as f:
+        with codecs.open(description_path, "w", encoding='utf-8') as f:
             f.write(item['description'])
             
+        # Process test cases data
+        private_test_data = str(item['private_tests']).replace('\\n', '\n').replace("{", "").replace("}", "").replace("[", "").replace("]", "").replace(",", "").replace("' ", "").replace("'", "").replace("'", "").replace(" '", "").replace(" '", "").replace("input: ", "input:").replace("output: ", "output:")
+        private_test_parts = private_test_data.split("output:")
+
+        generated_test_data = str(item['generated_tests']).replace('\\n', '\n').replace("{", "").replace("}", "").replace("[", "").replace("]", "").replace(",", "").replace("' ", "").replace("'", "").replace("'", "").replace(" '", "").replace(" '", "").replace("input: ", "input:").replace("output: ", "output:")
+        generated_test_parts = generated_test_data.split("output:")
+        
         # Create test cases file
         test_cases_path = os.path.join(problem_path, "test_cases")
-        with open(test_cases_path, "w") as f:
-            f.write(str(item['private_tests']).replace('\\n', '\n').replace("{", "").replace("}", "").replace("[", "").replace("]", "").replace(",", "").replace("' ", "").replace("'", "").replace("'", "").replace(" '", "").replace(" '", "").replace("input: ", "input:").replace("output: ", "output:").replace("input:", "input:\n").replace("output:", "\n\noutput:\n") + "\n")
-            # f.write(str(item['generated_tests']).replace('\\n', '\n'))
+        with codecs.open(test_cases_path, "w", encoding='utf-8') as f:
+            for part in private_test_parts[:-1]:
+                if "input:" in part:
+                    f.write(part.replace("input:", "").strip())
+
+            for part in generated_test_parts[:-1]:
+                if "input:" in part:
+                    f.write(part.replace("input:", "").strip())
+            
+
+        # Create expected output file
+        expected_output_path = os.path.join(problem_path, "expected_output")
+        with codecs.open(expected_output_path, "w", encoding='utf-8') as f:
+            f.write(private_test_parts[-1].strip() + "\n")
+            f.write(generated_test_parts[-1].strip() + "\n")
+
             
         # Create accuracy file
         accuracy_path = os.path.join(problem_path, "accuracy")
-        with open(accuracy_path, "w") as f:
+        with codecs.open(accuracy_path, "w", encoding='utf-8') as f:
             pass
         
         # Create chat-gpt code file
         chat_gpt_code_path = os.path.join(problem_path, "chat-gpt-code")
-        with open(chat_gpt_code_path, "w") as f:
+        with codecs.open(chat_gpt_code_path, "w", encoding='utf-8') as f:
             pass
             
     i+=1
-
