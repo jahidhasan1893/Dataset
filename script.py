@@ -36,11 +36,11 @@ for item in ds['train']:
         accuracy_path = os.path.join(problem_path, "accuracy")
         with open(accuracy_path, "w") as f:
             pass
+        
+        # Create chat-gpt code file
+        chat_gpt_code_path = os.path.join(problem_path, "chat-gpt-code")
+        with open(chat_gpt_code_path, "w") as f:
+            pass
             
     i+=1
 
-
-# for key in ds.keys():
-#     print(f"\nSplit: {key}")
-#     print("Fields:", list(ds[key].features.keys()))
-#     print("Sample data:", ds[key][:2])
